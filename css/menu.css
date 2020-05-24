@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  ul li {
+    list-style: none;
+  }
+  
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: #252525;
+    z-index: 1;
+    justify-content: space-between;
+    padding: 15px 30px;
+  }
+  .header {
+    display: flex;
+  }
+  .menu {
+    display: flex;
+    margin-top: 15px;
+  }
+  .logo {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+    margin-top: -5px;
+  }
+  .logo::after {
+    position: absolute;
+    left: 30px;
+    top: 53px;
+    content: '';
+    display: inline-block;
+    width: 160px;
+    height: 2px;
+    background-color: #DB504A;
+  }
+  .menu a {
+    padding: 10px;
+    font-family: 'Roboto';
+    font-size: 1.125em;
+    letter-spacing: .1em;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+  }
+  .menu a:hover {
+    transition: ease 400ms all;
+    border: 2px solid #DB504A;
+  }
+  .btn-menu {
+    display: none;
+  }
+  .btn-menu:hover {
+    cursor: pointer;
+  }
+
+  @media (max-width: 739px) {
+    .header {
+      background-color: #252525;
+      display: flex;
+      justify-content: center;
+      padding: 35px 30px;
+    }
+    .logo {
+      position: absolute;
+      left: 0;
+      top:  0;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+    .logo::after {
+      position: absolute;
+      left: 2px;
+      top: 43px;
+      content: '';
+      display: inline-block;
+      width: 160px;
+      height: 2px;
+      background-color: #DB504A;
+    }
+    .menu {
+      display: none;
+    }
+    .menu li {
+      margin-top: 20px;
+      margin-left: 20px;
+      text-align: center;
+    }
+    .show-menu {
+      transition: ease 500ms all;
+      flex-direction: column;
+      display: flex;
+      align-self: center;
+      align-items: center;
+    } 
+     
+    .menu-mobile {
+      display: flex;
+      flex-direction: column;
+    } 
+    .btn-menu {
+      transition: ease 500ms all;
+      display:block;
+      position: absolute;
+      padding: 5px;
+      right: -5px;
+      top:  15px;
+      margin-right: 20px
+    }
+    .btn-menu:hover {
+      background: #DB504A;
+      padding: 5px;
+      border-radius: 10px;
+    }
+    .btn-menu:hover, .btn-menu span {
+      color: #ddd;
+    }
+    .btn-menu span {
+      border-radius: 5px;
+      width: 35px;
+      height: 5px;
+      margin: 5px;
+      display: block;
+      background: #fff;
+    }
+    
+    .btn-menu span:nth-child(2) {
+      width: 25px;
+    }
+    .btn-menu span:nth-child(3) {
+      width: 20px;
+    }  
+  }
