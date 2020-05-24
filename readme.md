@@ -1,4 +1,4 @@
-# linkar o artigo
-# linkar os cursos extras
-# linkar redes sociais
-# linkar os projetos
+# colocar os links sociais
+# colocar o link de projetos
+# colocar o link de artigos 
+# adicionar as experiências
