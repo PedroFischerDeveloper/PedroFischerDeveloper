@@ -6,3 +6,5 @@
 # adicionar as experiências
 
 # adicionar certificado udemy origamid
+
+# checar o que falta
