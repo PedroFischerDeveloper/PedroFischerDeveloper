@@ -113,7 +113,7 @@
       top:  15px;
       margin-right: 20px
     }
-    .btn-menu:active {
+    .btn-menu:focus {
       background: #DB504A;
       padding: 5px;
       border-radius: 10px;
