@@ -36,9 +36,13 @@
     padding: 60px 0;
     background-color: #fff;
 }
+.experiencia {
+    padding: 60px 0;
+    background-color: #ddd;
+}
 .projetos {
     padding: 60px 0;
-    background-color: #fff;
+    background-color: #ddd;
 }
 .subtitle {
     color: #DB504A;
