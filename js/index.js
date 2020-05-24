@@ -1,6 +1,6 @@
 function onready() {
     Swal.fire(
-        'Olá tudo bem, agradeço a visita',
+        'Olá tudo bem? gostaria de agradecer a visita antes de tudo!',
         'Antes de tudo gostaria de informar que o portfólio está construção, então agradeço a compreensão',
         'info'
     )
